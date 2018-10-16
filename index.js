@@ -46,7 +46,6 @@ categories.then(function (res) {
     var podcastEl = document.createElement('ul');
     podcastEl.classList.add('podcast');
     contents.map(function (v, i) {
-        console.log(v);
         var mainURL = (v.url !== undefined && v.url.substring(0, 4) !== 'http') ? "http://" + v.url : v.url;
         var listBe = "\n        <a href=\"" + mainURL + "\" target=\"_blank\">\n            <li class=\"podList\">\n                <div>\n                    <h3> " + v.name + " </h3>\n                    <img src=\"" + v.logo + "\" alt=\"" + v.name + "\">\n                    <ul>\n                        <li>\n                            <strong>Country of Resident:</strong> <br> " + v.country + "\n                        </li>\n                        <li>\n                            <strong>Origin Country:</strong> <br> " + v.resident + "\n                        </li>\n                        <li>\n                            <span><strong>Gender:</strong>" + v.gender + "</span>\n                        </li>\n                        <li>\n                            <strong>Stack:</strong> <br> " + v.stack + "\n                        </li>\n                        <li>\n                            <strong>Profession:</strong> <br> " + v.profession + "\n                        </li>\n                    </ul>\n                </div>\n            </li>\n        </a>\n        ";
         return podcastEl.append(document.createRange().createContextualFragment(listBe));

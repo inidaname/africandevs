@@ -63,8 +63,6 @@ categories.then((res: any) => {
     let podcastEl: HTMLUListElement = document.createElement('ul');
     podcastEl.classList.add('podcast')
     contents.map((v: any, i: number) => {
-        console.log(v);
-        
         let mainURL = (v.url !== undefined && v.url.substring(0, 4) !== 'http')? `http://${v.url}` : v.url;
         let listBe = `
         <a href="${mainURL}" target="_blank">
