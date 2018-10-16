@@ -1,12 +1,12 @@
 # african Developers
-A curated list of African developers around the globe, 
+A curated list of African developers around the globe,
 
 ## How to contribute
 Let start
 
 #### First things first
 
-Check the [existing list](https://hassansani.me/african). For inspirations
+Check the [existing list](https://hassansani.me/african).
 
 #### Next
 If you are not already on this list, this is how you can add it
