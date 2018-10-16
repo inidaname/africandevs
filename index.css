@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "Alfa Slab One";
+  src: url("./assets/fonts/AlfaSlabOne-Regular.ttf");
+}
+@font-face {
+  font-family: "Oswald";
+  src: url("./assets/fonts/Oswald-Regular.ttf");
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("./assets/fonts/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  src: url("./assets/fonts/SourceSerifPro-Regular.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a, a:visited, a:active, a:hover {
+  color: unset;
+  text-decoration: none;
+}
+
+#app {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.menuSP {
+  cursor: pointer;
+  position: fixed;
+  top: 0;
+}
+
+#main {
+  transition: 0.5s;
+  padding: 20px;
+  width: 95%;
+  box-sizing: border-box;
+}
+
+.sideBar {
+  background-color: #b8b1b1;
+  width: 0;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  position: fixed;
+  box-shadow: 0px 2px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.sideBar h3 {
+  font-family: "Alfa Slab One", fantasy;
+  text-shadow: 4px 6px 3px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  font-size: 31px;
+  transition: 0.3s;
+}
+.sideBar h3 span {
+  color: #fff;
+}
+.sideBar > ul {
+  border: 1px solid #000;
+  display: flex;
+  position: relative;
+  z-index: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 1px;
+  box-sizing: border-box;
+  font-family: "Source Serif Pro", serif;
+  font-size: 21px;
+  font-variant: small-caps;
+  height: auto;
+  letter-spacing: 3px;
+}
+.sideBar > ul li {
+  margin: 12px;
+  z-index: 1;
+  padding: 10px 0;
+  text-align: right;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  position: static;
+  justify-content: space-around;
+  opacity: 1;
+  transition: 0.9s;
+}
+.sideBar > ul li ul {
+  padding: 5px;
+  z-index: 1;
+  position: relative;
+  margin: 5px;
+  font-size: 12px;
+  height: 0;
+  opacity: 0;
+  transition: 0.9s;
+  font-family: serif;
+}
+.sideBar > ul li ul li {
+  padding: 6px 2px;
+  margin: 2px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.podcast {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none;
+  min-height: 400px;
+  box-sizing: border-box;
+}
+.podcast .podList {
+  width: 80%;
+  margin: 10px auto;
+  overflow: hidden;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+  border-radius: 13px;
+  padding: 12px;
+  box-sizing: border-box;
+  transition: 0.2s;
+}
+.podcast .podList:hover {
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.5s;
+}
+.podcast .podList div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.podcast .podList div h3 {
+  font-family: "Oswald", sans-serif;
+}
+.podcast .podList div img {
+  width: 120px;
+}
+@media screen and (min-width: 1025px) {
+  .podcast .podList {
+    width: 300px;
+    margin: 15px;
+  }
+}
+.podcast .podList ul {
+  margin: 21px auto;
+  width: 100%;
+  text-wrap: wrap;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  justify-content: space-around;
+  list-style: none;
+}
+.podcast .podList ul li {
+  width: 100%;
+  margin: 3px;
+}
+
+.hide {
+  display: none !important;
+  transition: 0.5s;
+}
+
+/*# sourceMappingURL=index.css.map */
