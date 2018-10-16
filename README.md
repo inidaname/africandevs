@@ -1,5 +1,8 @@
 # african Developers
-A curated list of African developers around the globe,
+A curated list of African developers.
+
+## Note:
+*Information added to this repo shall be used for public display.*
 
 ## How to add a dev
 Let start
