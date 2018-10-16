@@ -34,7 +34,7 @@ If you are not already on this list, this is how you can add your profile
   },
 ```
 
-**Name**: Name of the podcast,<br/>
+**Name**: Name of the Developer,<br/>
 **GitHub**: GitHub profile name<br/>
 **URL**: Your Web address if Any<br/>
 **Profession**: What is the title of your Profession.<br/>
