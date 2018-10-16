@@ -1,7 +1,7 @@
 # african Developers
 A curated list of African developers around the globe,
 
-## How to contribute
+## How to add a dev
 Let start
 
 #### First things first
@@ -9,7 +9,7 @@ Let start
 Check the [existing list](https://hassansani.me/african).
 
 #### Next
-If you are not already on this list, this is how you can add it
+If you are not already on this list, this is how you can add your profile
 
 * `fork` this `repo`
 * `clone` it to you local machine
