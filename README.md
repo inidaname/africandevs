@@ -8,8 +8,11 @@ A curated list of African developers.
 Let start
 
 #### First things first
+Check out these articles on how to make your first PR
+1. [GitHub](https://help.github.com/articles/creating-a-pull-request/)
+2. [Medium](https://codeburst.io/a-step-by-step-guide-to-making-your-first-github-contribution-5302260a2940)
 
-Check the [existing list](https://hassansani.me/african).
+Check the [existing list](https://hassansani.me/africandevs).
 
 #### Next
 If you are not already on this list, this is how you can add your profile
