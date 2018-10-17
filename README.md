@@ -19,7 +19,7 @@ If you are not already on this list, this is how you can add your profile
 
 * `fork` this `repo`
 * `clone` it to you local machine
-* open the [data]() file
+* open the [data](/data/people.json) file
 * Add yours in the format below
 * Send a `pull request` 🎉
 
