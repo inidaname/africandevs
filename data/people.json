@@ -9,5 +9,16 @@
     "twitter": "inidaname",
     "url": "hassansani.me",
     "profession": "Fullstack Developer"
-  }
+  },
+  {
+    "name": "Ahmad Abdul-Aziz",
+    "github": "devamaz",
+    "resident": "Nigeria",
+    "country": "Nigeria",
+    "gender": "Male",
+    "stack": "JavaScript, Node.js, React, HTML, CSS, C++, MongoDB, SQL",
+    "twitter": "dev_amaz",
+    "url": "devamaz.me",
+    "profession": "Fullstack Developer"
+   }
 ]
