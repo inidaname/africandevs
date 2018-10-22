@@ -20,5 +20,16 @@
     "twitter": "dev_amaz",
     "url": "devamaz.me",
     "profession": "Fullstack Developer"
+   },
+  {
+    "name": "Vincent Iroleh",
+    "github": "vincentiroleh",
+    "resident": "Nigeria",
+    "country": "Nigeria",
+    "gender": "Male",
+    "stack": "Python, Django, JavaScript, HTML, CSS",
+    "twitter": "IrolehVincent",
+    "url": "github.com/vincentiroleh",
+    "profession": "Computer Engineer"
    }
 ]
