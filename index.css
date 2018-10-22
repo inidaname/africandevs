@@ -165,7 +165,7 @@ a, a:visited, a:active, a:hover {
 .podcast .podList ul {
   margin: 21px auto;
   width: 100%;
-  text-wrap: wrap;
+  word-wrap : break-word;
   padding: 0;
   display: flex;
   flex-direction: column;
