@@ -31,5 +31,16 @@
     "twitter": "IrolehVincent",
     "url": "github.com/vincentiroleh",
     "profession": "Computer Engineer"
+   },
+   {
+    "name": "Victory Osikwemhe",
+    "github": "zombieleet",
+    "resident": "Nigeria",
+    "country": "Nigeria",
+    "gender": "Male",
+    "stack": "C, Node.js, JavaScript, HTML5, CSS3, MongoDB,",
+    "twitter": "VOsikwemhe",
+    "url": "https://github.com/zombieleet",
+    "profession": "Developer"
    }
 ]
