@@ -58,7 +58,7 @@ Follow the steps above and you are done.
 ## Authors
 
 * **Hassan Sani** - *Initial work* - [iNidAName](https://github.com/iNidAName)
-* **Ahmad Abdullaziz** - Docs - [dev_amaz](https://github.com/dev_amaz)
+* **Ahmad Abdulaziz** - Docs and Maintenance - [devamaz](https://github.com/devamaz)
 
 See also the list of [contributors](https://github.com/inidaname/africandevs/contributors) who participated in this project.
 
