@@ -42,5 +42,16 @@
     "twitter": "VOsikwemhe",
     "url": "https://github.com/zombieleet",
     "profession": "Developer"
+   },
+   {
+    "name": "Rebai Ahmed",
+    "github": "RebaiAhmed",
+    "resident": "Tunisia",
+    "country": "Tunisia",
+    "gender": "Male",
+    "stack": "Reactjs ,Nodejs Angular Mongodb Redux ",
+    "twitter": "RebaiAhmed_",
+    "url": "https://github.com/Rebaiahmed",
+    "profession": "Developer"
    }
 ]
